@@ -140,7 +140,7 @@ class TypeModel(
     return backends[name]
   }
 
-  fun getFunction(name: String): Function? {
+  fun getFunctionType(name: String): Function? {
     return functions[name]
   }
 
