@@ -68,7 +68,6 @@ clean {
     delete "${intellij.sandboxDirectory}/plugins/${intellij.pluginName}"
 }
 
-<<<<<<< HEAD
 dependencies {
     compile "org.jetbrains.kotlin:kotlin-stdlib:${kotlinVersion}"
     compile 'com.beust:klaxon:0.31'
@@ -77,10 +76,6 @@ dependencies {
 
 sourceCompatibility = '1.8'
 targetCompatibility = '1.8'
-=======
-sourceCompatibility = '1.6'
-targetCompatibility = '1.6'
->>>>>>> matthew16550-133-link-to-external-docs
 
 sourceSets {
     main {
